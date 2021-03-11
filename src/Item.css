@@ -1,0 +1,13 @@
+.product{
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.productImage{
+    max-width: 500px;
+    max-height: 300px;
+}

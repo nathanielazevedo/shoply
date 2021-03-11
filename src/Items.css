@@ -1,0 +1,28 @@
+.item{
+    border: 1px solid white;
+    padding: 15px;
+    width: fit-content;
+    min-width: 400px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.items{
+    
+    margin-top: 50px;
+    
+    margin-left: 10px;
+}
+
+.itemLink{
+    text-decoration: none;
+    color: white;
+}
+
+button{
+    background-color: black;
+    color: white;
+    border: none;
+    font-size: 10px;
+    height: 25px;
+}
