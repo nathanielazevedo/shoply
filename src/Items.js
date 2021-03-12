@@ -4,11 +4,13 @@ import { useSelector } from "react-redux";
 import { NavLink } from "react-router-dom";
 import ItemIcons from './ItemIcons';
 
+//Displays all items collected from redux store.
+//Each item is a link to more details.
+
 function Items() {
 
     const items = useSelector((store) => store.products);
 
-    
     return (
         <div className="items">
             <h2>Available Items:</h2>

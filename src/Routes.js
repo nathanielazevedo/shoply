@@ -4,6 +4,8 @@ import Items from './Items'
 import Item from './Item'
 import Cart from './Cart'
 
+//Routing with paths. 
+
 function Routes() {
   return (
     <Switch>

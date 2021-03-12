@@ -2,6 +2,10 @@ import "./Cart.css";
 import { useSelector } from "react-redux";
 import ItemIcons from './ItemIcons'
 
+
+
+//Displays all items in a users cart. 
+//Also renders icons allowing for the addition and removal of items from cart.
 function Cart() {
   
   const items = useSelector((store) => store.cart);

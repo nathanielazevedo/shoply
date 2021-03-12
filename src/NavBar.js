@@ -2,6 +2,7 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 import './NavBar.css'
 
+//NavBar component with links to items and cart.
 
 function NavBar() {
   return (
